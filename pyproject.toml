@@ -6,11 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "tetris-rl"
 version = "0.1.0"
 description = "A custom Tetris environment for reinforcement learning experiments."
-requires-python = ">=3.11"
+requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.8",
     "numpy>=1.26",
-    "pygame>=2.5",
+    "pygame-ce>=2.5.7",
     "PyYAML>=6.0",
     "torch>=2.2",
     "tqdm>=4.66",
